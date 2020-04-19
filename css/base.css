@@ -1,0 +1,134 @@
+/*--------------------------------*/
+
+/* Variable */
+
+/*--------------------------------*/
+
+/*--------------------------------*/
+
+/* Responsive */
+
+/*--------------------------------*/
+
+.sp-only {
+  display: none;
+}
+
+.pc-only {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .sp-only {
+    display: block;
+  }
+
+  .pc-only {
+    display: none;
+  }
+}
+
+/*--------------------------------*/
+
+/* Common */
+
+/*--------------------------------*/
+
+a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+.ui-btn {
+  display: block;
+  padding: 20px 0;
+  border: solid 2px #ffffff;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .ui-btn {
+    padding: 12px 0;
+  }
+}
+
+.ui-btn:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 22px;
+  border-top: 2px solid #ffffff;
+  width: 100%;
+  height: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .ui-btn:after {
+    top: 13px;
+  }
+}
+
+.ui-btn:hover {
+  border: solid 2px #1780E9;
+  color: #1780E9;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  .ui-btn:hover {
+    padding: 12px 0;
+  }
+}
+
+.ui-btn:hover:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 22px;
+  border-top: 2px solid #1780E9;
+  width: 100%;
+  height: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .ui-btn:hover:after {
+    top: 13px;
+  }
+}
+
+.sec-headline {
+  margin: 0 auto;
+}
+
+.sec-headline .en {
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .sec-headline .en {
+    font-size: 48px;
+  }
+}
+
+.sec-headline .jp {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .sec-headline .jp {
+    margin-top: 3px;
+    font-size: 14px;
+  }
+}
+
